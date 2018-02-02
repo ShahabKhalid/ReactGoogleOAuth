@@ -1,0 +1,45 @@
+{
+  "name": "reactjs-google-oauth",
+  "version": "1.0.1",
+  "description": "A reactjs package for google oath access token.",
+  "main": "build/index.js",
+  "peerDependencies": {
+    "react": "^15.5.4"
+  },
+  "dependencies": {
+    "react": "^15.5.4",
+    "webpack": "^2.6.1",
+    "prop-types": "^15.6.0",
+    "react-load-script": "0.0.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "author": "Shahab Khalid <shahabkhalidc@gmail.com> (https://bashsofts.com)",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1"
+  },
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShahabKhalid/ReactGoogleOAuth.git"
+  },
+  "keywords": [
+    "google-oauth",
+    "reactjs-google-oauth",
+    "google-signin",
+    "google-signout",
+    "reactjs-google-signin"
+  ],
+  "bugs": {
+    "url": "https://github.com/ShahabKhalid/ReactGoogleOAuth/issues"
+  },
+  "homepage": "https://github.com/ShahabKhalid/ReactGoogleOAuth#readme"
+}
